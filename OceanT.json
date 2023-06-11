@@ -1,0 +1,5 @@
+npm install -g @oceanprotocol/cli
+ocean dev --network mumbai
+ocean dataset create
+ocean asset publish --aquarius.url https://aquarius.marketplace.oceanprotocol.com --brizo.url https://brizo.marketplace.oceanprotocol.com --metadata mydataset.json
+ocean search "OceanT"
